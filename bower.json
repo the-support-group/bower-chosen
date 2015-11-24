@@ -1,5 +1,5 @@
 {
-  "name": "chosen",
+  "name": "tsg-chosen",
   "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
   "version": "1.4.2",
   "main": [
@@ -44,7 +44,7 @@
   "homepage": "http://harvesthq.github.io/chosen/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/harvesthq/chosen"
+    "url": "https://github.com/the-support-group/chosen.git"
   },
   "dependencies": {
     "jquery": ">=1.4.4"
