@@ -651,7 +651,8 @@
       var _this = this;
       this.container.bind('touchstart.chosen', function(evt) {
         _this.container_mousedown(evt);
-        return evt.preventDefault();
+        // Note: Comment this out so that it works on an iPad.
+        //return evt.preventDefault();
       });
       this.container.bind('touchend.chosen', function(evt) {
         _this.container_mouseup(evt);
